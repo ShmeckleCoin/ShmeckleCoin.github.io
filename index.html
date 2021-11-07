@@ -1,4 +1,8 @@
 <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 .container {
     position: absolute;
     top: 50%;
@@ -7,9 +11,19 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+.bg { 
+  background-image: "background-image.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>
-<html>
+<body>
+
+<div class="bg"></div>
 <div class="container">
   <span><h3>Shmeckles coming soon!</h3></span>
 </div>
-</html>
+</body>
