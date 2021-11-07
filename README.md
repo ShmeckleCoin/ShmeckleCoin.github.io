@@ -1,0 +1,1 @@
+# ShmeckleCoin.github.io
